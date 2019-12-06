@@ -8,6 +8,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"> </script>
 <div id="target" style="overflow: scroll; width: 700px; height: 1000px;">
 <h1>Test your knowledge!</h1>
+<h2>Jeff's fun project</h2>
 <p>- score means more wrong than right.</p>
 <p>+ score means more right than wrong.</p>
 <div>
