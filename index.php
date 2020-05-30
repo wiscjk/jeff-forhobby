@@ -195,7 +195,7 @@
 <br>
 <button class="az" id="submit">Submit</button>
 
-<p>Hello. Do you want to view <a href="jeff.html">jeff</a> ?</p>
+<p>Hello. Do you want to view <a href="jeff.html">Hope and despair?</a> ?</p>
 
 <style>
 body {
