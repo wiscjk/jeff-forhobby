@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Page Title</title>
+		<script>
+var i = 0;
+var aa = 0;
+
+var ii = 0;
+var bb = 0;
+var txt = 'The door is open';
+var txtaa = 'Always has been, this light about the clouds!';
+var txtx = 'The eclipse has come ...';
+var txtb = 'Dark, dark, such darkness!';
+var speed = 175;
+var speeda = 695;
+var speed1 = 345;
+var speedb = 805;
+
+
+function typeWriter(color) {
+  if (i < txt.length) {
+    document.getElementById("hope").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+    document.body.style.background = color;
+  }
+  if (aa < txtaa.length) {
+    document.getElementById("hope1").innerHTML += txtaa.charAt(aa);
+    aa++;
+    setTimeout(typeWriter, speed1);
+    document.body.style.background = color;
+   
+  }
+  document.getElementById('pic').style.display='none';
+  document.getElementById('pic1').style.display='block';
+}
+function typeWrite(color) {
+  if (ii < txtx.length) {
+    document.getElementById("despair").innerHTML += txtx.charAt(ii);
+    ii++;
+    setTimeout(typeWrite, speed1);
+    document.body.style.background = color;
+  }
+  if (bb < txtb.length) {
+    document.getElementById("despair1").innerHTML += txtb.charAt(bb);
+    bb++;
+    setTimeout(typeWrite, speedb);
+    document.body.style.background = color;
+  }
+  document.getElementById('pic').style.display='block';
+   document.getElementById('pic1').style.display='none';
+}
+
+</script>
+<style>
+.button {
+  background-color: white;
+  border: inline;
+  color: black;
+  padding: 35px 35px;
+  text-align: right;
+  font-size: 25px;
+}
+.button1 {
+  background-color: black;
+  border: inline;
+  color: white;
+  padding: 35px 35px;
+  text-align: center;
+  font-size: 25px;
+}
+body {
+  background-color: gray;
+}
+p {
+  color: black;
+  font-size: 35px;
+}
+p3 {
+  color: black;
+  font-size: 55px;
+}
+
+
+p1 {
+  color: white;
+  font-size: 35px;
+}
+p2 {
+  color: white;
+  font-size: 55px;
+}
+.sphere {
+  height: 15px;
+  width: 725px;
+  background-color: red;
+  border-radius: 50%;
+  display: inline-block;
+}
+.sphere1 {
+  height: 15px;
+  width: 725px;
+  background-color: green;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+</style>
+	</head>
+<body>
+	    <div style="text-align:left">
+	        <span class="sphere"></span>
+	         </div>
+	         <div style="text-align:center">
+	     	<button class="button" onclick="typeWriter('white')">Hope</button>
+			<p id="hope"></p>
+		 </div>
+		<button class="button1" onclick="typeWrite('black');">Despair</button>
+	
+		 <p1 id="despair"></p1> 
+		<div style="text-align:rigth">
+	            <span class="sphere1"></span>
+	             </div>
+	             <div style="text-align:center">
+	             
+	             <p3 id="hope1"></p3>
+	             
+	             <div style="text-align:center">
+	                 <p2 id="despair1"></p2>
+	             <img id="pic" src="https://images.unsplash.com/photo-1500099817043-86d46000d58f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=190&q=300" style="display:none;"/>
+	             <img id="pic1" src="https://images.unsplash.com/photo-1525153619385-b392c01cf467?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=170&q=300" style="display:none;"/>
+	            </div>
+	              <div style="text-align:center">
+	       
+	        
+	         </div>
+	             </div>
+	</body>
+</html>
