@@ -196,7 +196,7 @@
 <button class="az" id="submit">Submit</button>
 
 <p>Hello. Do you want to view <a href="jeff.html">Hope and despair?</a> ?</p>
-<p>This is my website in wordpress<a href="https://wordpress.com/view/jeffreykoh314662687.wordpress.com">Jeff's website</a>?<br />
+<p>More about me?<a href="https://jeffreykoh314662687.wordpress.com/author/wiscjk/">My website</a>?<br />
 
 <style>
 body {
