@@ -6,7 +6,7 @@
 		    .button {
   background-color: yellow;
   color: magenta;
-  padding: 20px;
+  padding: 15px;
   text-align: center;
   display: inline-block;
   font-size: 22px;
@@ -15,17 +15,25 @@
 }
 p2 {
   color: white;
-  font-size: 55px;
+  font-size: 15px;
 }
 p1 {
   color: red;
-  font-size: 55px;
+  font-size: 25px;
 }
 p3 {
   color: green;
-  font-size: 55px;
+  font-size: 25px;
 }
-.but {border-radius: 50%;}
+p4 {
+  color: cyan;
+  font-size: 25px;
+}
+p5 {
+  color: blue;
+  font-size: 25px;
+}
+.but {border-radius: 30%;}
 
 body {
     background-color: gray;
@@ -34,12 +42,43 @@ body {
 		<script>
 function myFunction() {
   document.getElementById("a").innerHTML = "Make belief";
+   document.getElementById('pic1').style.display='block';
+   document.getElementById('pic2').style.display='none';
+   document.getElementById('pic3').style.display='none';
+   document.getElementById('pic4').style.display='none';
+   document.getElementById('pic5').style.display='none';
 }
 function myFunction1() {
   document.getElementById("b").innerHTML = "Please don't, please do";
+  document.getElementById('pic2').style.display='block';
+  document.getElementById('pic1').style.display='none';
+  document.getElementById('pic3').style.display='none';
+  document.getElementById('pic4').style.display='none';
+  document.getElementById('pic5').style.display='none';
 }
 function myFunction2() {
   document.getElementById("c").innerHTML = "It's hard when illusions feel, seem so real";
+  document.getElementById('pic3').style.display='block';
+  document.getElementById('pic1').style.display='none';
+  document.getElementById('pic2').style.display='none';
+  document.getElementById('pic4').style.display='none';
+  document.getElementById('pic5').style.display='none';
+}
+function myFunction3() {
+  document.getElementById("d").innerHTML = "You're not an echo.";
+   document.getElementById('pic4').style.display='block';
+   document.getElementById('pic1').style.display='none';
+   document.getElementById('pic2').style.display='none';
+   document.getElementById('pic3').style.display='none';
+   document.getElementById('pic5').style.display='none';
+}
+function myFunction4() {
+  document.getElementById("e").innerHTML = "Find me";
+  document.getElementById('pic5').style.display='block';
+  document.getElementById('pic1').style.display='none';
+  document.getElementById('pic2').style.display='none';
+  document.getElementById('pic3').style.display='none';
+  document.getElementById('pic4').style.display='none';
 }
 </script>
 	</head>
@@ -47,6 +86,8 @@ function myFunction2() {
 		<button class="button but" onclick="myFunction()">Get dressed</button>
 		<button class="button but" onclick="myFunction1()">Get nude</button>
 			<button class="button but" onclick="myFunction2()">Get real</button>
+				<button class="button but" onclick="myFunction3()">Get perspective</button>
+				<button class="button but" onclick="myFunction4()">Get yourself</button>
 <div style="text-align:center">
 <p1 id="a"></p1>
 </div>
@@ -56,5 +97,16 @@ function myFunction2() {
 <div style="text-align:center">
 <p3 id="c"></p3>
 </div>
+<div style="text-align:center">
+<p4 id="d"></p4>
+</div>
+<div style="text-align:center">
+<p5 id="e"></p5>
+</div>
+<img id="pic1" src="https://images.unsplash.com/photo-1504198458649-3128b932f49e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=800" style="display:none;"/>
+<img id="pic2" src="https://images.unsplash.com/photo-1531646317777-0619c7c5d1d3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=800" style="display:none;"/>
+<img id="pic3" src="https://images.unsplash.com/photo-1577046080164-e557b30af8ce?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=555&q=800" style="display:none;"/>
+<img id="pic4" src="https://images.unsplash.com/photo-1470920941400-7998c026b8ce?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=800" style="display:none;"/>
+<img id="pic5" src="https://images.unsplash.com/photo-1559533077-1d5c3059873d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=800" style="display:none;"/>
 	</body>
 </html>
