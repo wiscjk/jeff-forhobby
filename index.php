@@ -197,11 +197,12 @@
 
 <p>Hello. Do you want to view <a href="jeff.html">Hope and despair?</a> ?</p>
 <p>Hello. Do you want to view <a href="button.html">buttons</a> ?</p>
+<p>Hello. Do you want to view <a href="life.html">The discrepancy</a> ?</p>
 <p>More about me?<a href="https://jefflikesto.wordpress.com/">My website</a>?<br />
 
 <style>
 body {
-	background-color: hotpink;
+	background-color: black;
 }
 
 h1 {
