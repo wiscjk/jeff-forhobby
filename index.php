@@ -37,7 +37,7 @@
         <li><a href="button.html">Buttons</a></li>
         <li><a href="jeff.html">Hope and despair</a></li>
         <li><a href="test.html">Test</a></li>
-<li><a href="havenot.htm">What do I have</a></li>
+<li><a href="havenot.html">What do I have</a></li>
       </ul>
    
     </div>
