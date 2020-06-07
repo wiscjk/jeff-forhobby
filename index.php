@@ -27,7 +27,7 @@
       </a>
       <div class="dropdown-menu">
         <a class="dropdown-item" href="test.html">Test</a>
-        <a class="dropdown-item" href="havenot.htm">What do I have</a>
+        <a class="dropdown-item" href="havenot.html">What do I have</a>
          <a class="dropdown-item" href="simple.html">Simple reall</a>
       </div>
     </li>
@@ -36,7 +36,7 @@
         More Fun
       </a>
       <div class="dropdown-menu">
-        <a class="dropdown-item" href="life.htm">Discrepancy</a>
+        <a class="dropdown-item" href="life.html">Discrepancy</a>
         <a class="dropdown-item" href="button.html">Buttons</a>
          <a class="dropdown-item" href="jeff.html">Hope and despair</a>
       </div>
