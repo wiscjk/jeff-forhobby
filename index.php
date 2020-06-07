@@ -38,6 +38,7 @@
         <li><a href="jeff.html">Hope and despair</a></li>
         <li><a href="test.html">Test</a></li>
 <li><a href="havenot.html">What do I have</a></li>
+<li><a href="simple.html">Simple really</a></li>
       </ul>
    
     </div>

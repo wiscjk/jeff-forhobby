@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Page Title</title>
+	
+		<script>
+		    function myFunction() {
+  document.getElementById("a").innerHTML = "Ouch";
+		    }
+		    function myFunction1() {
+  document.getElementById("b").innerHTML = "Fun!";
+		    }
+		</script>
+		<style>
+		    .button {
+  color: coral;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+
+}
+
+p2 {
+  color: orange;
+  font-size: 15em;
+}
+p1 {
+  color: pink;
+  font-size: 15em;
+}
+
+body {
+    
+     background-color: red;
+}
+
+.but {border-radius: 50%;}
+
+		</style>
+	</head>
+	<body>
+	    
+		<div style="text-align:center">
+		    <h1>It's Simple</h1>
+		    <button class="button but" onclick="myFunction()">Push my buttons</button>
+<p2 id="a"></p2>
+</div>
+	<div style="text-align:center">
+		    <button class="button but" onclick="myFunction1()">Push your buttons</button>
+<p1 id="b"></p1>
+</div>
+	</body>
+</html>
