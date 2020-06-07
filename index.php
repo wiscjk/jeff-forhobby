@@ -19,7 +19,7 @@
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">  
   <ul class="navbar-nav">
     <li class="nav-item">
-      <a class="nav-link" href="https://jefflikesto.wordpress.co">About</a>
+      <a class="nav-link" href="https://jefflikesto.wordpress.com">About</a>
     </li>
     <li class="nav-item dropdown">
       <a class="nav-link dropdown-toggle" href="https://jefflikesto.wordpress.com" id="navbardrop" data-toggle="dropdown">
