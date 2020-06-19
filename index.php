@@ -28,7 +28,8 @@
       <div class="dropdown-menu">
         <a class="dropdown-item" href="test.html">Test</a>
         <a class="dropdown-item" href="havenot.html">What do I have</a>
-         <a class="dropdown-item" href="simple.html">Simple reall</a>
+         <a class="dropdown-item" href="simple.html">Simple really</a>
+<a class="dropdown-item" href="royal.html">Complex Not So Much</a>
       </div>
     </li>
     <li class="nav-item dropdown">
