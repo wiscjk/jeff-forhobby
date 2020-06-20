@@ -40,6 +40,7 @@
         <a class="dropdown-item" href="life.html">Discrepancy</a>
         <a class="dropdown-item" href="button.html">Buttons</a>
          <a class="dropdown-item" href="jeff.html">Hope and despair</a>
+<a class="dropdown-item" href="jour.html">Time travel</a>
       </div>
     </li>
   </ul>
