@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Page Title</title>
+	
+		<script>
+	
+		    function myFunction1() {
+  document.getElementById("b").innerHTML = "even though it is a ?";
+		    }
+		     function myFunction2() {
+  document.getElementById("c").innerHTML = "it is one beating heart alive";
+		    }
+		        function myFunction3() {
+  document.getElementById("d").innerHTML = "even when the thick and thin gets confused";
+		    }
+	
+		</script>
+		<style>
+
+    .button1 {
+      font-size: 15em;
+      display: inline-block;
+      width: 0.4em;
+      box-sizing: content-box;
+      height: 0.4em;
+      border: 0.1em solid blueviolet;
+      position: relative;
+      border-radius: 0.35em;
+    }
+    .button1:before {
+      content: "";
+      display: inline-block;
+      position: absolute;
+      right: -0.25em;
+      bottom: -0.12em;
+      border-width: 20;
+      background: red;
+      width: 0.35em;
+      height: 0.08em;
+      transform: rotate(45deg);
+    }
+ 
+	    .button2 {
+          position: relative;
+      width: 100px;
+      height: 90px;
+
+}
+ .button2:before,
+    .button2:after {
+      position: absolute;
+      content: "";
+      left: 50px;
+      top: 0;
+      width: 50px;
+      height: 80px;
+      background: deeppink;
+      border-radius: 50px 50px 0 0;
+      transform: rotate(-45deg);
+      transform-origin: 0 100%;
+    }
+    
+    .button2:after {
+      left: 0;
+      transform: rotate(45deg);
+      transform-origin: 100% 100%;
+    }
+
+    
+ 
+    .button3 {
+      height: 5;
+      border: 10px solid transparent;
+      border-bottom: 70px solid greenyellow;
+      position: relative;
+      top: -50px;
+    }
+    .button3:after {
+      content: '';
+      position: absolute;
+      left: -50px;
+      top: 70px;
+      border: 50px solid transparent;
+      border-top: 70px solid midnightblue;
+    }transform: rotate(45deg);
+    }
+        
+  h2{
+      
+      color: aqua;
+  font-size: 1.5em;
+  }   
+    p2{
+      
+      color: springgreen;
+  font-size: 1.5em;
+
+  }  
+          
+  p4{
+      
+       color: magenta;
+  font-size: 2em;
+  }
+
+
+
+
+body {
+    
+     background-color: brown;
+}
+
+		</style>
+	</head>
+	<body>
+	    <div style="text-align:center">
+	    <h2>Flight through rough waters</h2>
+		    
+		   </div> 
+
+	<div style="text-align:center">
+	    <p4>search</p4></br></br>
+		    <button class="button1" onclick="myFunction1()"></button>
+<p2 id="b"></p2></br></br></br>
+</div>
+
+
+	<div style="text-align:center">
+	  
+	    <p4>for</p4></br></br></br></br></br></br></br>
+		    <button class="button3" onclick="myFunction3()"></button>
+<p2 id="d"></p2></br></br></br></br></br></br>
+</div>
+
+
+	<div style="text-align:center">
+	    <p4>love</p4></br></br></br>
+		    <button class="button2" onclick="myFunction2()"></button></br>
+		    
+<p2 id="c"></p2></br></br></br>
+</div>
+
+
+
+	
+
+	</body>
+</html>
