@@ -12,6 +12,8 @@
   body {
     position: relative; 
   }
+   #Entertainment {padding-top:55px;height:900px;color: lightsalmon; background-color: slategrey;}
+  
   </style>
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="100">
@@ -44,11 +46,24 @@
 <a class="dropdown-item" href="search.html">Turbulent waves</a>
       </div>
     </li>
-  </ul>
+     </ul>
+  
 </nav>
 
+
+  
+      <li><a class="navbar-brand" href="#Entertainment">
+        Entertainment
+      </a></li>
+     
+ 
  
 
+ <div id="Entertainment" class="container-fluid">
+  <h1>Entertain</h1>
+  <p>This is a place of writing, creativity, tinkering with codes, playing with ideas etc</p>
+
+</div>
 
 
 
