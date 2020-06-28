@@ -13,6 +13,38 @@
     position: relative; 
   }
    #Entertainment {padding-top:55px;height:900px;color: lightsalmon; background-color: slategrey;}
+   
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 120;
+  left: 0;
+  background-color: darkgreen;
+  overflow-x: hidden;
+  padding-top: 200px;
+}
+
+.sidenav a {
+  padding: 4px 9px 6px 12px;
+  font-size: 22px;
+  color: aqua;
+  display: relative;
+}
+
+.sidenav a:hover {
+  color: pink;
+}
+.center {
+  text-align: center;
+
+}
+.center1 {
+  text-align: center;
+ 
+}
+
   
   </style>
 </head>
@@ -50,22 +82,52 @@
   
 </nav>
 
+<div class="sidenav">
+  <a href="#work">Work</a>
+  <a href="#play">Play</a>
+ 
+</div>
 
-  
+  <div class="center">
       <li><a class="navbar-brand" href="#Entertainment">
         Entertainment
       </a></li>
      
- 
+
  
 
  <div id="Entertainment" class="container-fluid">
+     <div class="center1">
   <h1>Entertain</h1>
-  <p>This is a place of writing, creativity, tinkering with codes, playing with ideas etc</p>
+  </div>
+   <div class="center1">
+  <p>There are gems in the haystack</p>
+  <p>A work in progress</p>
+  </div>
 
 </div>
 
+ </div>
 
+<nav aria-label="Page navigation example">
+  <ul class="pagination justify-content-center">
+      <ul class="pagination pagination-lg">
+    <li class="page-item disabled">
+    
+    </li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+     <li class="page-item"><a class="page-link" href="#">4</a></li>
+      <li class="page-item"><a class="page-link" href="#">5</a></li>
+       <li class="page-item"><a class="page-link" href="#">6</a></li>
+        <li class="page-item"><a class="page-link" href="#">7</a></li>
+    <li class="page-item">
+     
+    </li>
+  </ul>
+</nav>
 
 </body>
 </html>
+		
