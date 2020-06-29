@@ -13,7 +13,16 @@
     position: relative; 
   }
    #Entertainment {padding-top:55px;height:900px;color: lightsalmon; background-color: slategrey;}
-   
+   h1{
+       font-size: 4em;
+  color: magenta;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+   }
+   h2{
+       font-size: 3em;
+  color: magenta;
+   }
 .sidenav {
   height: 100%;
   width: 160px;
@@ -78,13 +87,70 @@
 <a class="dropdown-item" href="search.html">Turbulent waves</a>
       </div>
     </li>
+     <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        Music
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="life.html">Allegro</a>
+         </div>
+    </li>
+     <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        Poetry
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="life.html">Stanza</a>
+         </div>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        Stories
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="life.html">Form</a>
+         </div>
+    </li>
+      <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        Codes
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="life.html">Artificial Intelligence</a>
+         </div>
+    </li>
+         <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        Art
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="life.html">Painting</a>
+         </div>
+    </li>
      </ul>
-  
+
 </nav>
 
 <div class="sidenav">
   <a href="#work">Work</a>
   <a href="#play">Play</a>
+   <a href="#play">Please</a>
+    <a href="#play">Pray</a>
+     <a href="#play">Drink</a>
+      <a href="#play">Eat</a>
+       <a href="#play">Rest</a>
+        <a href="#play">Fallen</a>
+         <a href="#play">mindless</a>
+          <a href="#play">garden</a>
+           <a href="#play">cave</a>
+            <a href="#play">sea</a>
+            <a href="#play">filled</a>
+            <a href="#play">filled</a>
+            <a href="#play">not filled</a>
+            <a href="#play">vacant</a>
+            <a href="#play">ecstasy</a>
+            <a href="#play">ecstasy</a>
+            <a href="#play">ecstasy</a>
  
 </div>
 
@@ -99,10 +165,20 @@
  <div id="Entertainment" class="container-fluid">
      <div class="center1">
   <h1>Entertain</h1>
+   <h2>me</h2>
   </div>
    <div class="center1">
-  <p>There are gems in the haystack</p>
-  <p>A work in progress</p>
+  <p>gems in the haystack</p>
+  <p>swirling puddles of sands mixing</p>
+  <p>cloth covering </p>
+  <p>my inner turmoil</p>
+  <p>blank carved face like ice</p>
+  <p>gazing back at you</p>
+  <p>to steal a glance</p>
+  <p>when you too are so wrapped</p>
+  <p>tight</p>
+  <p>in this swirling mess</p>
+
   </div>
 
 </div>
@@ -115,13 +191,13 @@
     <li class="page-item disabled">
     
     </li>
-    <li class="page-item"><a class="page-link" href="#">1</a></li>
-    <li class="page-item"><a class="page-link" href="#">2</a></li>
-    <li class="page-item"><a class="page-link" href="#">3</a></li>
-     <li class="page-item"><a class="page-link" href="#">4</a></li>
-      <li class="page-item"><a class="page-link" href="#">5</a></li>
-       <li class="page-item"><a class="page-link" href="#">6</a></li>
-        <li class="page-item"><a class="page-link" href="#">7</a></li>
+    <li class="page-item"><a class="page-link" href="#">love</a></li>
+    <li class="page-item"><a class="page-link" href="#">hate</a></li>
+   
+     <li class="page-item"><a class="page-link" href="#">earth</a></li>
+      <li class="page-item"><a class="page-link" href="#">sun</a></li>
+       <li class="page-item"><a class="page-link" href="#">mellow</a></li>
+  
     <li class="page-item">
      
     </li>
@@ -130,4 +206,3 @@
 
 </body>
 </html>
-		
