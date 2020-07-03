@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<button class="button but" onclick="typeWriter()">Love fades not</button>
+
+<p id="love"></p>
+
+<script>
+var i = 0;
+var txt = 'entertainment dissipate so very fast, quickly the void becomes larger and all around the shadows grow .... the snickers, the faces still smile because entertainment is a currency and the body is sinking in this fairy tale - stories no longer solid, and there is a want, a need for this mystery';
+var speed = 200;
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("love").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+     
+  }
+}
+</script>
+<style>
+		    .button {
+  background-color: firebrick;
+  color: magenta;
+  padding: 15px;
+  text-align: center;
+  display: inline-block;
+  font-size: 22px;
+  margin: 5px 5px;
+  cursor: pointer;
+}
+#love{
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-size: 3em;
+  background-color: hotpink;
+  color: mediumvioletred;
+}
+
+body{
+    background-color: pink;
+}
+    
+</style>
+
+</body>
+</html>

@@ -23,6 +23,10 @@
        font-size: 3em;
   color: magenta;
    }
+   #oo{
+     color: blueviolet;  
+     font-size: 3em;
+   }
 .sidenav {
   height: 100%;
   width: 160px;
@@ -135,7 +139,7 @@
   <a href="#work">Work</a>
   <a href="#play">Play</a>
    <a href="#play">Please</a>
-    <a href="#play">Pray</a>
+    <a id="oo" href=love.html>love</a>
      <a href="#play">Drink</a>
       <a href="#play">Eat</a>
        <a href="#play">Rest</a>
