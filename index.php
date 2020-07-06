@@ -78,10 +78,7 @@
   text-align: center;
  
 }
-.center4 {
-  text-align: right;
- 
-}
+
 .button {
   background-color: darkkhaki; 
   border: outset;
@@ -241,8 +238,8 @@
   </div>
    <div class="center3">
 <img id="invi" src="ent.png" alt="ent" style="width:500px;height:600px;">
- <div class="center4">
- <img id="invi2" src="notent.png" alt="notent" width="800" height="600" style="display:none;">
+
+ <img id="invi2" src="notent.png" alt="notent" text-align: right; width="800" height="600" style="display:none;">
 </div>
   </div>
 
@@ -250,7 +247,7 @@
 
 </div>
 
- </div>
+
 
 <nav aria-label="Page navigation example">
   <ul class="pagination justify-content-center">
