@@ -78,6 +78,13 @@
   text-align: center;
  
 }
+.center4 {
+    margin: auto;
+  width: 550%;
+  border: 5px solid #73AD21;
+  padding: 10px;
+ 
+}
 
 .button {
   background-color: darkkhaki; 
@@ -238,12 +245,12 @@
   </div>
    <div class="center3">
 <img id="invi" src="ent.png" alt="ent" style="width:500px;height:600px;">
-
- <img id="invi2" src="notent.png" alt="notent" text-align: right; width="800" height="600" style="display:none;">
+<div class="center3">
+ <img id="invi2" src="notent.png" alt="notent" width="800" height="600" style="display:none;">
 </div>
   </div>
 
-
+</div>
 
 </div>
 
@@ -270,3 +277,16 @@
  
 </body>
 </html>
+
+     
+
+ 
+
+ 
+
+
+     
+
+ 
+
+ 
