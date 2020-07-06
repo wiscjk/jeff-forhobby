@@ -228,17 +228,9 @@
    <p id="memo"></p>
     </div>
   </div>
-   <div class="center1">
-  <p>gems in the haystack</p>
-  <p>swirling puddles of sands mixing</p>
-  <p>cloth covering </p>
-  <p>my inner turmoil</p>
-  <p>blank carved face like ice</p>
-  <p>gazing back at you</p>
-  <p>to steal a glance</p>
-  <p>when you too are so wrapped</p>
-  <p>tight</p>
-  <p>in this swirling mess</p>
+   <div id="invi" class="center1">
+ <img src="ent.jpg" alt="entertain" width="500" height="333">
+
 
   </div>
 
@@ -267,9 +259,3 @@
  
 </body>
 </html>
-
-     
-
- 
-
- 
