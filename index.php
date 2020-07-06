@@ -8,6 +8,14 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <script>
+      
+ function mefunc() {
+  document.getElementById("memo").innerHTML = "pay no heed, pay no heed i beseech you, when at the end of the tunnel ... ... it really is, just that, cliche and hindsight overtold was just another card in the game";
+
+  
+}
+ </script>
   <style>
   body {
     position: relative; 
@@ -23,6 +31,7 @@
        font-size: 3em;
   color: magenta;
    }
+
    #oo{
      color: blueviolet;  
      font-size: 3em;
@@ -57,7 +66,27 @@
   text-align: center;
  
 }
+.button {
+  background-color: darkkhaki; 
+  border: outset;
+  color: crimson;
+  padding: 2px 5px;
+  text-align: center;
+}
+.button1 {font-size: 24px;}
 
+
+.button1:hover {
+  background-color: firebrick;
+  color: white;
+}
+
+#meme{
+    background-color: coral;
+}
+.center10{
+    background-color: yellow;
+}
   
   </style>
 </head>
@@ -169,7 +198,10 @@
  <div id="Entertainment" class="container-fluid">
      <div class="center1">
   <h1>Entertain</h1>
-   <h2>me</h2>
+   <button id = "meme" onclick="mefunc()" class="button button1">me</button></br></br>
+   <div class="center10">
+   <p id="memo"></p>
+    </div>
   </div>
    <div class="center1">
   <p>gems in the haystack</p>
