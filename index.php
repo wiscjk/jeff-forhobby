@@ -232,7 +232,7 @@
   </div>
    <div class="center1">
 <img id="invi" src="ent.png" alt="ent" style="width:500px;height:600px;">
- <img id="invi2" src="notent.png" alt="notent" width="500" height="600" style="display:none;">
+ <img id="invi2" src="notent.png" alt="notent" width="300" height="300" style="display:none;">
 
   </div>
 
