@@ -229,7 +229,7 @@
     </div>
   </div>
    <div id="invi" class="center1">
- <img src="ent.jpg" alt="entertain" width="500" height="333">
+ <p><a href="#"><img src="ent.jpg"></a></p>
 
 
   </div>
