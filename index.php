@@ -28,6 +28,7 @@
     position: relative; 
   }
    #Entertainment {padding-top:55px;height:900px;color: lightsalmon; background-color: slategrey;}
+   
    h1{
        font-size: 4em;
   color: magenta;
@@ -73,7 +74,7 @@
   text-align: center;
  
 }
-.center2 {
+.center4 {
   text-align: right;
  
 }
@@ -234,9 +235,9 @@
    <p id="memo"></p>
     </div>
   </div>
-   <div class="center1">
+   <div class="center3">
 <img id="invi" src="ent.png" alt="ent" style="width:500px;height:600px;">
- <div class="center2">
+ <div class="center4">
  <img id="invi2" src="notent.png" alt="notent" width="400" height="600" style="display:none;">
 </div>
   </div>
@@ -268,3 +269,16 @@
  
 </body>
 </html>
+
+     
+
+ 
+
+ 
+
+
+     
+
+ 
+
+ 
