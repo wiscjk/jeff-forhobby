@@ -249,7 +249,7 @@
    <div class="center3">
 <img id="invi" src="ent.png" alt="ent" style="width:500px;height:600px;">
 <div class="center3">
- <img id="invi2" src="notent.png" alt="notent" width="800" height="600" style="display:none;">
+ <img id="invi2" src="notent.png" alt="notent" width="200" height="300" style="display:none;">
 </div>
   </div>
 
@@ -280,16 +280,3 @@
  
 </body>
 </html>
-
-     
-
- 
-
- 
-
-
-     
-
- 
-
- 
