@@ -11,7 +11,12 @@
   <script>
       
  function mefunc() {
-  document.getElementById("memo").innerHTML = "pay no heed, pay no heed i beseech you, when at the end of the tunnel ... ... it really is, just that, cliche and hindsight overtold was just another card in the game";
+  document.getElementById("memo").innerHTML = "hindsight overtold was just another card in the game";
+
+  
+}
+ function mefunc1() {
+  document.getElementById("a").innerHTML = "stop playing the game and there is no more influence";
 
   
 }
@@ -80,14 +85,29 @@
   background-color: firebrick;
   color: white;
 }
+#a{
+    color: #49fb35;
+    font-size: 150%;
+}
 
 #meme{
     background-color: coral;
 }
+#memo{
+    background-color: #CC00FF;
+}
+#circle{
+      width: 100px;
+      height: 100px;
+      background: #33FF00;
+      border-radius: 50%
+}
 .center10{
     background-color: yellow;
 }
-  
+  .cir1{
+    background-color: yellow;
+}
   </style>
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="100">
@@ -163,7 +183,7 @@
      </ul>
 
 </nav>
-
+ 
 <div class="sidenav">
   <a href="#work">Work</a>
   <a href="#play">Play</a>
@@ -182,7 +202,9 @@
             <a href="#play">not filled</a>
             <a href="#play">vacant</a>
             <a href="#play">ecstasy</a>
-            <a href="#play">ecstasy</a>
+           <button id="circle" onclick="mefunc1()" class="button button21">Circle of Influence</button></br></br>
+
+   
             <a href="#play">ecstasy</a>
  
 </div>
@@ -197,6 +219,9 @@
 
  <div id="Entertainment" class="container-fluid">
      <div class="center1">
+         <div style="text-align:right">
+         <p1 id="a"></p1>
+         </div>
   <h1>Entertain</h1>
    <button id = "meme" onclick="mefunc()" class="button button1">me</button></br></br>
    <div class="center10">
@@ -239,6 +264,12 @@
     </li>
   </ul>
 </nav>
-
+ 
 </body>
 </html>
+
+     
+
+ 
+
+ 
