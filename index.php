@@ -80,7 +80,7 @@
 }
 .center4 {
     margin: auto;
-  width: 550%;
+  width: 55%;
   border: 5px solid #73AD21;
   padding: 10px;
  
