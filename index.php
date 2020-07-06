@@ -74,6 +74,10 @@
   text-align: center;
  
 }
+.center3 {
+  text-align: center;
+ 
+}
 .center4 {
   text-align: right;
  
