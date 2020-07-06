@@ -79,10 +79,10 @@
  
 }
 .center4 {
-    margin: auto;
-  width: 55%;
-  border: 5px solid #73AD21;
-  padding: 10px;
+  
+  width: 5%;
+  border: 3px solid aqua;
+  padding: 1px;
  
 }
 #invi2{
@@ -280,3 +280,16 @@
  
 </body>
 </html>
+
+     
+
+ 
+
+ 
+
+
+     
+
+ 
+
+ 
