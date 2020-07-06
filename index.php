@@ -11,7 +11,7 @@
   <script>
       
  function mefunc() {
-  document.getElementById("memo").innerHTML = "hindsight overtold was just another card in the game";
+  document.getElementById("memo").innerHTML = "retold";
   document.getElementById('invi').style.display='none';
   document.getElementById('invi2').style.display='block';
 
@@ -230,15 +230,12 @@
    <p id="memo"></p>
     </div>
   </div>
-   <div id="invi" class="center1">
-<img src="ent.png" alt="ent" style="width:500px;height:600px;">
-
+   <div class="center1">
+<img id="invi" src="ent.png" alt="ent" style="width:500px;height:600px;">
+ <img id="invi2" src="notent.png" alt="notent" width="500" height="600" style="display:none;">
 
   </div>
-   <div id="invi2" class="center2">
-  <img src="notent.png" alt="notent" width="500" height="600" style="display:none";>
 
-</div>
 
 
 </div>
@@ -266,10 +263,3 @@
  
 </body>
 </html>
-
-     
-
- 
-
- 
-
