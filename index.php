@@ -86,7 +86,7 @@
  
 }
 #invi2{
-    text-align: center;
+    text-align: right;
 }
 
 .button {
@@ -280,3 +280,16 @@
  
 </body>
 </html>
+
+     
+
+ 
+
+ 
+
+
+     
+
+ 
+
+ 
