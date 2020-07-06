@@ -12,6 +12,7 @@
       
  function mefunc() {
   document.getElementById("memo").innerHTML = "hindsight overtold was just another card in the game";
+  document.getElementById('invi').style.display='none';
 
   
 }
