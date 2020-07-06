@@ -13,6 +13,7 @@
  function mefunc() {
   document.getElementById("memo").innerHTML = "hindsight overtold was just another card in the game";
   document.getElementById('invi').style.display='none';
+  document.getElementById('invi2').style.display='block';
 
   
 }
@@ -223,8 +224,8 @@
          <div style="text-align:right">
          <p1 id="a"></p1>
          </div>
-  <h1>Entertain</h1>
-   <button id = "meme" onclick="mefunc()" class="button button1">me</button></br></br>
+
+   <button id = "meme" onclick="mefunc()" class="button button1">Entertain me</button></br></br>
    <div class="center10">
    <p id="memo"></p>
     </div>
@@ -234,6 +235,11 @@
 
 
   </div>
+   <div id="invi2" class="center2">
+  <img src="notent.png" alt="notent" width="500" height="600" style="display:none";>
+
+</div>
+
 
 </div>
 
@@ -267,9 +273,3 @@
 
  
 
-
-     
-
- 
-
- 
