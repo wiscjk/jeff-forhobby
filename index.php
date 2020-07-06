@@ -73,6 +73,10 @@
   text-align: center;
  
 }
+.center2 {
+  text-align: right;
+ 
+}
 .button {
   background-color: darkkhaki; 
   border: outset;
@@ -232,8 +236,9 @@
   </div>
    <div class="center1">
 <img id="invi" src="ent.png" alt="ent" style="width:500px;height:600px;">
- <img id="invi2" src="notent.png" alt="notent" width="300" height="300" style="display:none;">
-
+ <div class="center2">
+ <img id="invi2" src="notent.png" alt="notent" width="400" height="600" style="display:none;">
+</div>
   </div>
 
 
