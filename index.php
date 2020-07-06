@@ -11,7 +11,7 @@
   <script>
       
  function mefunc() {
-  document.getElementById("memo").innerHTML = "retold";
+  
   document.getElementById('invi').style.display='none';
   document.getElementById('invi2').style.display='block';
 
@@ -84,6 +84,9 @@
   border: 5px solid #73AD21;
   padding: 10px;
  
+}
+#invi2{
+    text-align: center;
 }
 
 .button {
