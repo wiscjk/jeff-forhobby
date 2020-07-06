@@ -79,10 +79,10 @@
  
 }
 .center4 {
-  
-  width: 5%;
-  border: 3px solid aqua;
-  padding: 1px;
+    margin: auto;
+  width: 80%;
+  border: 25px solid magenta;
+  padding: 10px;
  
 }
 #invi2{
