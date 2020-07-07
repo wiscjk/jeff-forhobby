@@ -81,8 +81,9 @@
 .center4 {
     margin: auto;
   width: 80%;
-  border: 25px solid magenta;
-  padding: 10px;
+  height: 120%;
+  
+ 
  
 }
 #invi2{
@@ -289,7 +290,5 @@
 
 
      
-
- 
 
  
