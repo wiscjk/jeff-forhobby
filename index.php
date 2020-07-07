@@ -14,14 +14,16 @@
   
   document.getElementById('invi').style.display='none';
   document.getElementById('invi2').style.display='block';
+  document.getElementById('invi3').style.display='none';
 
   
 }
  function mefunc1() {
  
     document.getElementById('invi').style.display='none';
+    
     document.getElementById('invi3').style.display='block';
-
+document.getElementById('invi2').style.display='none';
   
 }
  </script>
@@ -307,13 +309,6 @@
  
 
  
-
-     
-
- 
-
- 
-
 
      
 
