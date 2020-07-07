@@ -18,7 +18,9 @@
   
 }
  function mefunc1() {
-  document.getElementById("a").innerHTML = "stop playing the game and there is no more influence";
+ 
+    document.getElementById('invi').style.display='none';
+    document.getElementById('invi3').style.display='block';
 
   
 }
@@ -79,6 +81,14 @@
  
 }
 .center4 {
+    margin: auto;
+  width: 80%;
+  height: 120%;
+  
+ 
+ 
+}
+.center11 {
     margin: auto;
   width: 80%;
   height: 120%;
@@ -252,6 +262,9 @@
 <div class="center4">
  <img id="invi2" src="notent.png" alt="notent" width="200" height="300" style="display:none;">
 </div>
+<div class="center11">
+ <img id="invi3" src="circle.png" alt="circle" width="200" height="300" style="display:none;">
+</div>
   </div>
 
 </div>
@@ -290,5 +303,20 @@
 
 
      
+
+ 
+
+ 
+
+     
+
+ 
+
+ 
+
+
+     
+
+ 
 
  
