@@ -38,6 +38,9 @@ document.getElementById('invi2').style.display='none';
 }
  </script>
   <style>
+  body{
+      position: relative; 
+  }
 
    #Entertainment {padding-top:55px;height:900px;color: lightsalmon; background-color: slategrey;}
    
@@ -92,7 +95,12 @@ document.getElementById('invi2').style.display='none';
 }
 
 .center12 {
-    margin: 90px;
+    text-align: right;
+
+ 
+}
+.center10 {
+    text-align: right;
 
  
 }
@@ -314,7 +322,5 @@ document.getElementById('invi2').style.display='none';
 
 
      
-
- 
 
  
