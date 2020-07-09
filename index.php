@@ -147,9 +147,7 @@ document.getElementById('invi2').style.display='none';
      
       background: orange;
 }
-.center10{
-    background-color: yellow;
-}
+
   .cir1{
     background-color: yellow;
 }
@@ -272,16 +270,12 @@ document.getElementById('invi2').style.display='none';
    <button id = "meme" onclick="mefunc()" class="button button1">Entertain me</button></br></br>
    <div class="center10">
    <p id="memo"></p>
-    </div>
-  </div>
-  <div class="center12">
- <img id="invi4" src="carrot.png" alt="carrot" width="200" height="300" style="display:none;">
+   <img id="invi4" src="carrot.png" alt="carrot" width="200" height="300" style="display:none;">
   <img id="invi3" src="circle.png" alt="circle" width="200" height="300" style="display:none;">
    <img id="invi2" src="notent.png" alt="notent" width="200" height="300" style="display:none;">
-</div>
-   <div class="center3">
-<img id="invi" src="ent.png" alt="ent" style="width:500px;height:600px;">
-</div>
+   <img id="invi" src="ent.png" alt="ent" style="width:500px;height:600px;">
+    </div>
+  </div>
 
 
   </div>
@@ -322,5 +316,7 @@ document.getElementById('invi2').style.display='none';
 
 
      
+
+ 
 
  
