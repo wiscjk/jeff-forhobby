@@ -15,7 +15,6 @@
   document.getElementById('invi').style.display='none';
   document.getElementById('invi2').style.display='block';
   document.getElementById('invi3').style.display='none';
-  document.getElementById('invi4').style.display='none';
 
   
 }
@@ -25,23 +24,13 @@
     
     document.getElementById('invi3').style.display='block';
 document.getElementById('invi2').style.display='none';
-document.getElementById('invi4').style.display='none';
   
-}
- function mefunc2() {
- 
-    document.getElementById('invi').style.display='none';
-    
-    document.getElementById('invi4').style.display='block';
-document.getElementById('invi2').style.display='none';
-  document.getElementById('invi3').style.display='none';
 }
  </script>
   <style>
-  body{
-      position: relative; 
+  body {
+    position: relative; 
   }
-
    #Entertainment {padding-top:55px;height:900px;color: lightsalmon; background-color: slategrey;}
    
    h1{
@@ -93,23 +82,26 @@ document.getElementById('invi2').style.display='none';
   text-align: center;
  
 }
-
-.center12 {
-    text-align: right;
-
+.center4 {
+    margin: auto;
+  width: 80%;
+  height: 120%;
+  
+ 
  
 }
-.center10 {
-    text-align: right;
-
+.center11 {
+    margin: auto;
+  width: 80%;
+  height: 120%;
+  
+ 
  
 }
 #invi2{
     text-align: right;
 }
-#invi4{
-    text-align: right;
-}
+
 .button {
   background-color: darkkhaki; 
   border: outset;
@@ -141,13 +133,9 @@ document.getElementById('invi2').style.display='none';
       background: #33FF00;
       border-radius: 50%
 }
-#carrot{
-       width: 100px;
-      height: 40px;
-     
-      background: orange;
+.center10{
+    background-color: yellow;
 }
-
   .cir1{
     background-color: yellow;
 }
@@ -237,7 +225,6 @@ document.getElementById('invi2').style.display='none';
        <a href="#play">Rest</a>
         <a href="#play">Fallen</a>
          <a href="#play">mindless</a>
-         <button id="carrot" onclick="mefunc2()" class="button button22">Carrot</button></br></br>
           <a href="#play">garden</a>
            <a href="#play">cave</a>
             <a href="#play">sea</a>
@@ -270,19 +257,21 @@ document.getElementById('invi2').style.display='none';
    <button id = "meme" onclick="mefunc()" class="button button1">Entertain me</button></br></br>
    <div class="center10">
    <p id="memo"></p>
-   <img id="invi4" src="carrot.png" alt="carrot" width="200" height="300" style="display:none;">
-  <img id="invi3" src="circle.png" alt="circle" width="200" height="300" style="display:none;">
-   <img id="invi2" src="notent.png" alt="notent" width="200" height="300" style="display:none;">
-   <img id="invi" src="ent.png" alt="ent" style="width:500px;height:600px;">
     </div>
   </div>
-
-
+   <div class="center3">
+<img id="invi" src="ent.png" alt="ent" style="width:500px;height:600px;">
+<div class="center4">
+ <img id="invi2" src="notent.png" alt="notent" width="200" height="300" style="display:none;">
+</div>
+<div class="center11">
+ <img id="invi3" src="circle.png" alt="circle" width="200" height="300" style="display:none;">
+</div>
   </div>
 
 </div>
 
-
+</div>
 
 
 
@@ -314,6 +303,12 @@ document.getElementById('invi2').style.display='none';
 
  
 
+
+     
+
+ 
+
+ 
 
      
 
