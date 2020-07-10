@@ -24,6 +24,16 @@
     
     document.getElementById('invi3').style.display='block';
 document.getElementById('invi2').style.display='none';
+document.getElementById('invi7').style.display='none';
+  
+}
+
+ function mefunc3() {
+ 
+    document.getElementById('invi').style.display='none';
+     document.getElementById('invi3').style.display='none';
+    document.getElementById('invi7').style.display='block';
+document.getElementById('invi2').style.display='none';
   
 }
  </script>
@@ -90,7 +100,7 @@ document.getElementById('invi2').style.display='none';
  
  
 }
-.center11 {
+.center11, .center121 {
     margin: auto;
   width: 80%;
   height: 120%;
@@ -98,7 +108,7 @@ document.getElementById('invi2').style.display='none';
  
  
 }
-#invi2{
+#invi2, #invi7{
     text-align: right;
 }
 
@@ -132,6 +142,14 @@ document.getElementById('invi2').style.display='none';
       height: 100px;
       background: #33FF00;
       border-radius: 50%
+}
+
+#carrot{
+    border-bottom: 50px solid aqua;
+	border-left: 55px solid transparent;
+	border-right: 55px solid transparent;
+	height: 0;
+	width: 25px;
 }
 .center10{
     background-color: yellow;
@@ -222,6 +240,7 @@ document.getElementById('invi2').style.display='none';
     <a id="oo" href=love.html>love</a>
      <a href="#play">Drink</a>
       <a href="#play">Eat</a>
+       <button id="carrot" onclick="mefunc3()" class="button button31">Carrot</button></br></br>
        <a href="#play">Rest</a>
         <a href="#play">Fallen</a>
          <a href="#play">mindless</a>
@@ -267,6 +286,9 @@ document.getElementById('invi2').style.display='none';
 <div class="center11">
  <img id="invi3" src="circle.png" alt="circle" width="200" height="300" style="display:none;">
 </div>
+<div class="center121">
+ <img id="invi7" src="carrot.png" alt="carrot" width="200" height="300" style="display:none;">
+</div>
   </div>
 
 </div>
@@ -296,22 +318,3 @@ document.getElementById('invi2').style.display='none';
  
 </body>
 </html>
-
-     
-
- 
-
- 
-
-
-     
-
- 
-
- 
-
-     
-
- 
-
- 
