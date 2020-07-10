@@ -150,6 +150,8 @@ document.getElementById('invi2').style.display='none';
 	border-right: 55px solid transparent;
 	height: 0;
 	width: 25px;
+	color: fuchsia;
+	font-weight: bold;
 }
 .center10{
     background-color: yellow;
@@ -194,7 +196,7 @@ document.getElementById('invi2').style.display='none';
         Music
       </a>
       <div class="dropdown-menu">
-        <a class="dropdown-item" href="life.html">Allegro</a>
+        <a class="dropdown-item" href="allegro.html">Allegro</a>
          </div>
     </li>
      <li class="nav-item dropdown">
@@ -202,7 +204,7 @@ document.getElementById('invi2').style.display='none';
         Poetry
       </a>
       <div class="dropdown-menu">
-        <a class="dropdown-item" href="life.html">Stanza</a>
+        <a class="dropdown-item" href="poetry.html">Stanza</a>
          </div>
     </li>
     <li class="nav-item dropdown">
@@ -210,7 +212,7 @@ document.getElementById('invi2').style.display='none';
         Stories
       </a>
       <div class="dropdown-menu">
-        <a class="dropdown-item" href="life.html">Form</a>
+        <a class="dropdown-item" href="stories.html">Form</a>
          </div>
     </li>
       <li class="nav-item dropdown">
@@ -218,7 +220,7 @@ document.getElementById('invi2').style.display='none';
         Codes
       </a>
       <div class="dropdown-menu">
-        <a class="dropdown-item" href="life.html">Artificial Intelligence</a>
+        <a class="dropdown-item" href="ai.html">Artificial Intelligence</a>
          </div>
     </li>
          <li class="nav-item dropdown">
@@ -226,7 +228,7 @@ document.getElementById('invi2').style.display='none';
         Art
       </a>
       <div class="dropdown-menu">
-        <a class="dropdown-item" href="life.html">Painting</a>
+        <a class="dropdown-item" href="paint.html">Painting</a>
          </div>
     </li>
      </ul>
