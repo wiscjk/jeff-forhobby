@@ -159,6 +159,13 @@ document.getElementById('invi2').style.display='none';
   .cir1{
     background-color: yellow;
 }
+.page-item{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+   
+}
+
   </style>
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="100">
@@ -311,6 +318,7 @@ document.getElementById('invi2').style.display='none';
      <li class="page-item"><a class="page-link" href="#">earth</a></li>
       <li class="page-item"><a class="page-link" href="#">sun</a></li>
        <li class="page-item"><a class="page-link" href="#">mellow</a></li>
+       <li class="page-item"><a class="page-link" href="remember.html">Remember</a></li>
   
     <li class="page-item">
      
@@ -320,3 +328,29 @@ document.getElementById('invi2').style.display='none';
  
 </body>
 </html>
+
+     
+
+ 
+
+ 
+
+
+     
+
+ 
+
+ 
+
+     
+
+ 
+
+ 
+
+
+     
+
+ 
+
+ 

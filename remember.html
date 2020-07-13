@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Page Title</title>
+		<style>
+
+
+.animation-box {
+  width: 100%;
+  height: 50rem;
+  background-color: blueviolet;
+
+}
+.rem {
+    opacity: 1;
+    animation: fade 3.5s linear;
+}
+
+
+@keyframes fade {
+  0%,100% { opacity: 0 }
+  50% { opacity: 1 }
+}
+
+.rem {
+    width:900px;
+    height: 200px;
+    background: cyan;
+    font-size: 9.5em;
+    -webkit-animation: fadeinout 24s linear forwards;
+    animation: fadeinout 14s linear forwards;
+}
+
+@-webkit-keyframes fadeinout {
+  0%,100% { opacity: 0; }
+  50% { opacity: 1; }
+}
+
+@keyframes fadeinout {
+  0%,100% { opacity: 0; }
+  50% { opacity: 1; }
+}
+
+
+		</style>
+	</head>
+	<body>
+		 <section class="animation-box">
+    <div class="rem">
+        <p>Memories</p><br>
+   
+        
+        
+    </div>
+        <div class="rem">
+        <p>Alive</p><br>
+   
+        
+        
+    </div>
+      </section>
+	</body>
+</html>
