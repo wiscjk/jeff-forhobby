@@ -313,7 +313,7 @@ document.getElementById('invi2').style.display='none';
     
     </li>
     <li class="page-item"><a class="page-link" href="#">love</a></li>
-    <li class="page-item"><a class="page-link" href="#">hate</a></li>
+    <li class="page-item"><a class="page-link" href="follow.html">follow</a></li>
    
      <li class="page-item"><a class="page-link" href="#">earth</a></li>
       <li class="page-item"><a class="page-link" href="#">sun</a></li>
@@ -328,29 +328,3 @@ document.getElementById('invi2').style.display='none';
  
 </body>
 </html>
-
-     
-
- 
-
- 
-
-
-     
-
- 
-
- 
-
-     
-
- 
-
- 
-
-
-     
-
- 
-
- 
