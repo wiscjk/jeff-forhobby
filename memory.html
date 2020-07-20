@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Page Title</title>
+		<style>
+		body{
+		    background-color: teal;
+		}
+		    p, p1, p2, p3 {
+  animation-duration: 12s;
+  animation-name: chase;
+  font-size: 2em;
+  animation-iteration-count: infinite;
+ 
+}
+
+p{
+    font-weight: bold;
+    font-style: arial;
+    color: violet;
+}
+p1{
+    font-weight: bold;
+    font-style: arial;
+    color: greenyellow;
+}
+p2{
+    font-weight: bold;
+    font-style: arial;
+    color: deepskyblue;
+}
+p3{
+    font-weight: bold;
+    font-style: arial;
+    color: slateblue;
+}
+
+@keyframes chase {
+  from {
+    margin-left: 5%;
+    width: 60%; 
+  }
+
+  to {
+    margin-left: -900%;
+    width: 30%;
+  }
+  
+85% {
+  font-size: 400%;
+  margin-left: 100%;
+  width: 150%;
+}
+ 
+}
+
+		</style>
+	</head>
+	<body>
+		<p>Memory</p><br>
+			<p1>Is</p1><br><br>
+			<p2>An</p2><br><br>
+				<p3>Illusion</p3>
+	</body>
+</html>
