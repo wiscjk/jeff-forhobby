@@ -238,14 +238,7 @@ document.getElementById('invi2').style.display='none';
         <a class="dropdown-item" href="paint.html">Painting</a>
          </div>
     </li>
-    <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-        Frameworks
-      </a>
-      <div class="dropdown-menu">
-        <a class="dropdown-item" href="https://sunapp1.pythonanywhere.com/">Django</a>
-         </div>
-    </li>
+   
      </ul>
 
 </nav>
