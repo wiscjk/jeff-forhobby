@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Page Title</title>
+		<style>
+		
+.word{
+animation: pic 7s linear infinite 5s;
+}
+
+@keyframes pic {
+    0% { opacity: .5; animation-timing-function: ease-out}
+    50% { opacity: 0; animation-timing-function: ease-in}
+    75% { opacity: .5; animation-timing-function: ease-out}
+    100% { opacity: 1; }
+}
+body {
+    
+    background-color: pink;
+}
+h1{
+    color: darkgreen;
+    text-align:center;
+}
+h2{
+    font-size: 3em;
+    text-align:center;
+}
+
+
+
+img#dog {
+	float: right;
+	margin-left: 3em;
+	opacity: 1;
+}
+img#dog1 {
+	float: left;
+	margin-right: 3em;
+	opacity: 0.2;
+}
+		</style>
+	</head>
+	<body>
+	    <h2>Identity</h2>
+	    
+	    <div class="word">
+		<h1>i am a cat</h1>
+	<img id="dog" src="doga.jpg" alt="thin" width="200" height="100">
+<img id="dog1" src="dogb.jpg" alt="fat" width="200" height="100">
+	</div>
+
+		
+	</body>
+</html>
