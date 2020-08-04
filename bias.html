@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Page Title</title>
+		<style>
+		
+.word{
+animation: pic 4s linear infinite 1s;
+}
+.word1{
+animation: pic2 4s linear infinite 3s;
+}
+
+@keyframes pic {
+    0% { opacity: 1; animation-timing-function: ease-out; height: 1em; }
+    50% { opacity: 0.5; height: 120px; }
+    100% { opacity: 1; }
+}
+
+@keyframes pic2 {
+    0% { opacity: 1; animation-timing-function: ease-out; width: 1em; }
+    50% { opacity: 0.5; width: 100%; }
+    100% { opacity: 1; }
+}
+body {
+    
+    background-color: pink;
+}
+h1{
+    color: darkgreen;
+    text-align:center;
+}
+h2{
+    font-size: 3em;
+    text-align:center;
+}
+
+
+
+img#fat {
+	float: right;
+	margin-left: 3em;
+	opacity: 0.5;
+}
+img#thin {
+	float: right;
+	margin-left: 3em;
+	opacity: 1;
+}
+		</style>
+	</head>
+	<body>
+	    <h2>Bias</h2>
+	    
+	    <div class="word">
+		<h1>i am fat</h1>
+	<img id="thin" src="https://images.unsplash.com/photo-1492106087820-71f1a00d2b11?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3334&q=80" alt="thin" width="900" height="900">
+</div>
+<br />
+<div class="word1">
+		<h1 >i am thin</h1>
+	<img id="fat" src="https://images.unsplash.com/photo-1573878593061-ed8c445d0af4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2468&q=80" alt="fat" width="900" height="900">
+	</div>
+
+		
+	</body>
+</html>

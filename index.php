@@ -317,7 +317,7 @@ document.getElementById('invi2').style.display='none';
     <li class="page-item"><a class="page-link" href="notfollow.html">do not</a></li>
    
      <li class="page-item"><a class="page-link" href="#">earth</a></li>
-      <li class="page-item"><a class="page-link" href="#">sun</a></li>
+      <li class="page-item"><a class="page-link" href="bias.html">Bias</a></li>
        <li class="page-item"><a class="page-link" href="memory.html">memory</a></li>
        <li class="page-item"><a class="page-link" href="remember.html">Remember</a></li>
   
