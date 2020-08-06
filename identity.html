@@ -8,6 +8,35 @@
 .word1{
 animation: pic1 7s linear infinite 5s;
 }
+.word3{
+animation: pic3 12s linear infinite 12s;
+font-size: 2em;
+color: floralwhite;
+}
+.word4{
+animation: pic4 3s linear infinite 3s;
+font-size: 2em;
+color: cadetblue;
+}
+.word5{
+animation: pic5 12s linear infinite 12s;
+font-size: 4.5em;
+color: sienna;
+}
+.word6{
+animation: pic6 20s linear infinite 21s;
+font-size: 7.5em;
+color: green;
+}
+
+div.word3 {
+  width: 100%;
+  height: 70%;
+  background-color: red;
+
+  animation: pic3 12s linear infinite 15s;
+}
+
 div.word {
   width: 90%;
   background-color: grey;
@@ -16,13 +45,38 @@ div.word {
   animation: pic 7s linear infinite 5s;
 }
 
-@keyframes pic {
+@keyframes pic6 {
+    0% { opacity: 1.2; animation-timing-function: ease-in}
+   
+    75% { opacity: .25; animation-timing-function: ease-out}
+    85% { opacity: 1.2; animation-timing-function: ease-in}
+    100% { opacity: 1; }
+}
+@keyframes pic6 {
     0% { opacity: .5; animation-timing-function: ease-out}
     50% { opacity: 0; animation-timing-function: ease-in}
     75% { opacity: .5; animation-timing-function: ease-out}
     100% { opacity: 1; }
 }
+@keyframes pic4 {
+    0% { opacity: .5; animation-timing-function: ease-out}
+    50% { opacity: 0; animation-timing-function: ease-in}
+    75% { opacity: .5; animation-timing-function: ease-out}
+    100% { opacity: 1; }
+}
+@keyframes pic5 {
+    0% { opacity: 1; animation-timing-function: ease-out}
+    50% { opacity: 0.3; animation-timing-function: ease-in}
+    75% { opacity: 1; animation-timing-function: ease-out}
+    100% { opacity: 0; }
+}
 @keyframes pic1 {
+    0% { opacity: .5; animation-timing-function: ease-out}
+    50% { opacity: 0; animation-timing-function: ease-in}
+ 
+    100% { opacity: 1; }
+}
+@keyframes pic3 {
     0% { opacity: .5; animation-timing-function: ease-out}
     50% { opacity: 0; animation-timing-function: ease-in}
  
@@ -60,11 +114,6 @@ h2{
     text-align:center;
 }
 
-#fi{
-    font-size: 4.5em
-    color: purple;
-}
-
 img#dog {
     display: block;
     margin-left: auto;
@@ -88,15 +137,22 @@ img#fish {
 		</style>
 	</head>
 	<body>
-	    <h2>Identity</h2>
+	    <div class="word3">
+	        <h2>Identity Lost</h2> 
+	    </div>
+	   
 	    <div class="word1">
 		
 	<img id="fish" src="https://images.unsplash.com/photo-1544551763-77ef2d0cfc6c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=4050&q=80" alt="thin" width="1800" height="380">
 
 	</div>
-	<h1>i am a cat</h1>
-	<h1>and dream of</h1><br>
-	<h1 id="fi">fishes</h1>
+	<h1 class="word4">i am a cat</h1>
+	<h2 class="word5">not you're not!</h2>
+	<h1 class="word4">and dream of</h1><br>
+	<h1 class="word4">fishes</h1>
+		<h3 class="word6">(will be)</h3>
+	<h2 class="word5">chasing cats</h2>
+
 	    <div class="word">
 		
 	<img id="dog" src="doga.jpg" alt="dog" width="700" height="400">
